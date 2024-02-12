@@ -1,0 +1,293 @@
+# resource "minecraft_block" "stone" {
+#   material = "minecraft:stone"
+#
+#   position = {
+#     x = -47,
+#     y = 65,
+#     z = 30
+#   }
+# }
+
+ # X=20 tot X=8
+
+ # z=-35 tot x=-24
+
+
+##############################
+# x=20
+#
+#
+#
+#
+#
+#
+#
+#
+# x=8
+##############################
+
+# z=-35                  z=-24
+
+
+##############################
+#
+#
+#
+#
+#
+#
+#
+#
+# x x
+#xxxx 
+##############################
+
+# z=-35                  z=-24
+
+
+
+
+
+
+# module "name1" {
+#   source = "./modules/puzzleP1"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+
+module "name2" {
+  source = "./modules/puzzleP2"
+
+  material = "minecraft:stone"
+  #material = "warped_hyphae"
+
+  position = {
+    x = 10,
+    y = -59,
+    z = -34
+  }
+}
+#
+# module "name3" {
+#   source = "./modules/puzzleP3"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+module "name4" {
+  source = "./modules/puzzleP4"
+
+  material = "warped_hyphae"
+
+  position = {
+    x = 8,
+    y = -59,
+    z = -34
+  }
+}
+
+# module "name5" {
+#   source = "./modules/puzzleP5"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name6" {
+#   source = "./modules/puzzleP6"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name7" {
+#   source = "./modules/puzzleP7"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 11,
+#     y = -59,
+#     z = -33
+#   }
+# }
+#
+ module "name8" {
+   source = "./modules/puzzleP8"
+
+   material = "warped_hyphae"
+
+   position = {
+     x = 11,
+     y = -59,
+     z = -33
+   }
+ }
+#
+# module "name9" {
+#   source = "./modules/puzzleP9"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name10" {
+#   source = "./modules/puzzleP10"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name11" {
+#   source = "./modules/puzzleP11"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name12" {
+#   source = "./modules/puzzleP12"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name13" {
+#   source = "./modules/puzzleP13"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name14" {
+#   source = "./modules/puzzleP14"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name15" {
+#   source = "./modules/puzzleP15"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name16" {
+#   source = "./modules/puzzleP16"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name17" {
+#   source = "./modules/puzzleP17"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+ module "name18" {
+   source = "./modules/puzzleP18"
+
+   material = "warped_hyphae"
+
+   position = {
+     x = 12,
+     y = -59,
+     z = -35
+   }
+ }
+#
+# module "name19" {
+#   source = "./modules/puzzleP19"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+#
+# module "name1" {
+#   source = "./modules/puzzleP1"
+#
+#   material = "warped_hyphae"
+#
+#   position = {
+#     x = 9,
+#     y = -59,
+#     z = -35
+#   }
+# }
+
+

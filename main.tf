@@ -15,7 +15,7 @@ module "noot1" {
    source = "./mods/noot"
    
    delay = 4
-   noot = 6
+   noot = 9
    material = "gold_block"
    x = 101
 }
@@ -25,7 +25,7 @@ module "noot2" {
    source = "./mods/noot"
    
    delay = 4
-   noot = 4
+   noot = 10
    material = "gold_block"
    x = 99
 }
@@ -34,13 +34,41 @@ module "noot3" {
    z = -103
    source = "./mods/noot"
    
-   delay = 2
-   noot = 2
+   delay = 4
+   noot = 12
    material = "gold_block"
    x = 97
 }
 
+module "noot4" {
+   z = -103
+   source = "./mods/noot"
+   
+   delay = 4
+   noot = 13
+   material = "gold_block"
+   x = 95
+}
 
+module "noot5" {
+   z = -103
+   source = "./mods/noot"
+   
+   delay = 4
+   noot = 9
+   material = "gold_block"
+   x = 93
+}
+
+module "noot6" {
+   z = -103
+   source = "./mods/noot"
+   
+   delay = 4
+   noot = 10
+   material = "gold_block"
+   x = 91
+}
 # # ----------------------------------------------------------------------------------------------------------------------------------------------
 
  # Muzik makes me loos controle

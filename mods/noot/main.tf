@@ -24,7 +24,7 @@ resource "minecraft_block" "muziek0_repeater" {
 } 
 resource "minecraft_block" "muziek1_noot" {
 
-  material = "note_block[note=6]"
+  material = "note_block[note=${tostring(var.noot)}]"
 
   position = {
     x = var.x - 1,

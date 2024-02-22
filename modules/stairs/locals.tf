@@ -2,7 +2,7 @@ locals {
   x_values = range(var.position.x, var.position.x + var.dimensions.width)
   y_values = range(var.position.y, var.position.y + var.dimensions.height)
   z_values = range(var.position.z, var.position.z + var.dimensions.length)
- 
+
 width_expansion = var.width_expansion
 
 coordinates = [
@@ -16,8 +16,8 @@ coordinates = [
   expanded_coordinates = flatten([
     for idx in range(local.width_expansion) : [
       for coord in local.coordinates : {
-        x = coord.x 
-        y = coord.y 
+        x = coord.x
+        y = coord.y
         z = coord.z + idx
       }
     ]

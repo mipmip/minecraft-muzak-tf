@@ -1,0 +1,56 @@
+module "diagonal" {
+  source = "./modules/speed_building/diagonal"
+
+  position = {
+    x = 102,
+    y = -60,
+    z = -120
+
+  }
+  dimensions = {
+    width  = 2,
+    length = 50,
+    height = 50,
+  }
+   material = "gold_block"
+
+  width_expansion = 3
+}
+
+module "diagonal_mir" {
+  source = "./modules/speed_building/diagonal_min"
+
+  position = {
+    x = 102,
+    y = -60,
+    z = -130
+
+  }
+  dimensions = {
+    width  = 2,
+    length = 50,
+    height = 50,
+  }
+   material = "gold_block"
+
+  width_expansion = 3
+}
+
+module "square" {
+  source = "./modules/speed_building/square"
+
+  position = {
+    x = 102,
+    y = -60,
+    z = -135
+
+  }
+  dimensions = {
+    width  = 10,
+    length = 50,
+    height = 50,
+  }
+  material = "warped_hyphae"
+
+  width_expansion = 3
+}
